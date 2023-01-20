@@ -1,0 +1,31 @@
+.top-navbar {
+  padding-top: 0;
+  padding-bottom: 50px;
+}
+
+.menu--estimate-main-navigation-menu {
+  height: 100%;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.menu--estimate-main-navigation-menu h5 {
+  margin: 0;
+}
+
+.menu--estimate-main-navigation-menu li {
+  display: flex;
+  align-items: end;
+  margin: 0 7px;
+}
+
+.menu--estimate-main-navigation-menu li:last-child {
+  background: #1C2A4A 0% 0% no-repeat padding-box;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.menu--estimate-main-navigation-menu .nav-link {
+  padding: 70px 12px 15px;
+}

@@ -1,17 +1,24 @@
+uuid: d6f006ca-8cb0-4954-bb7d-e747dc19d4e9
 langcode: en
 status: true
 dependencies:
+  module:
+    - system
   theme:
     - estimate_theme
 id: estimate_theme_page_title
 theme: estimate_theme
-region: content
-weight: -6
+region: title
+weight: -5
 provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
   label: 'Page title'
-  provider: core
   label_display: '0'
-visibility: {  }
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "<front> \r\n/user/register\r\n/home-page\r\n/get-support\r\n/contact/contact_us"

@@ -1,3 +1,4 @@
+uuid: 89aaabd2-6a50-46d4-82df-b1b8db6ff159
 langcode: en
 status: true
 dependencies:
@@ -14,6 +15,6 @@ plugin: system_messages_block
 settings:
   id: system_messages_block
   label: Messages
-  provider: system
   label_display: '0'
+  provider: system
 visibility: {  }

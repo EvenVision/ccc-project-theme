@@ -1,0 +1,42 @@
+form {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+label {
+  padding-bottom:  13px;
+}
+
+.form-control,
+textarea.form-control {
+  background: #E2E2E2 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+input[type=text],
+input[type=email] {
+  height: 34px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background: #ECECEC 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  padding: 7px 21px;
+
+  text-align: center;
+  font: normal normal 600 18px/22px Expressway;
+  letter-spacing: 1.8px;
+  color: #D43445;
+  text-transform: uppercase;
+}
+
+.field--name-field-first-name,
+.field--name-field-last-name {
+  max-width: 225px;
+  float: left;
+}
+
+.field--name-field-first-name {
+  margin-right: 50px;
+}
