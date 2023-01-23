@@ -11850,7 +11850,7 @@ code {
 .section-title-home-page {
   background-image:  url(../images/pattern_1.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   height: 35rem;
 
   display: flex;
@@ -11860,7 +11860,7 @@ code {
 .section-title-register-page {
   background-image:  url(../images/pattern_2.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 
   display: flex;
   justify-content: end;
