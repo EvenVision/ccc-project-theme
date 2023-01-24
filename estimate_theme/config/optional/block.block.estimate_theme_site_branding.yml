@@ -1,3 +1,4 @@
+uuid: d66b440f-042b-4144-99e3-b7bc539f7ea4
 langcode: en
 status: true
 dependencies:
@@ -5,18 +6,18 @@ dependencies:
     - system
   theme:
     - estimate_theme
-id: estimate_theme_branding
+id: estimate_theme_site_branding
 theme: estimate_theme
-region: nav_branding
-weight: -6
+region: navigation_branding
+weight: 0
 provider: null
 plugin: system_branding_block
 settings:
   id: system_branding_block
   label: 'Site branding'
-  provider: system
   label_display: '0'
+  provider: system
   use_site_logo: true
-  use_site_name: true
-  use_site_slogan: false
+  use_site_name: false
+  use_site_slogan: true
 visibility: {  }

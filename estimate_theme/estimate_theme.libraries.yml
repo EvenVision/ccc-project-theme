@@ -2,3 +2,7 @@ global-styling:
   css:
     theme:
       css/style.css: { }
+      css/forms.css: { }
+      css/menu.css: { }
+      css/fonts.css: { }
+      css/general.css: { }
