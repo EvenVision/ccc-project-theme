@@ -31,12 +31,14 @@ input[type=button], input[type=submit], input[type=reset] {
   text-transform: uppercase;
 }
 
-.field--name-field-first-name,
-.field--name-field-last-name {
-  max-width: 225px;
-  float: left;
-}
+@media (min-width: 992px) {
+  .field--name-field-first-name,
+  .field--name-field-last-name {
+    max-width: 225px;
+    float: left;
+  }
 
-.field--name-field-first-name {
-  margin-right: 50px;
+  .field--name-field-first-name {
+    margin-right: 50px;
+  }
 }

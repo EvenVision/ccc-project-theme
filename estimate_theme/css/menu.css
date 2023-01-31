@@ -29,3 +29,23 @@
 .menu--estimate-main-navigation-menu .nav-link {
   padding: 70px 12px 15px;
 }
+
+@media (max-width: 991.98px) {
+  .top-navbar {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .menu--estimate-main-navigation-menu ul {
+    justify-content: space-between;
+  }
+
+  .menu--estimate-main-navigation-menu li:last-child {
+    background: none;
+  }
+
+  .menu--estimate-main-navigation-menu .nav-link {
+    padding-top: 50px;
+    font-size: 18px;
+  }
+}
