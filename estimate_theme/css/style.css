@@ -11857,7 +11857,7 @@ code {
   justify-content: end;
 }
 
-.section-title-register-page {
+.section-title-get-a-demo-page, .section-title-get-support{
   background-image:  url(../images/pattern_2.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -11962,7 +11962,7 @@ code {
 
 .container-get-support {
   width: 300px;
-  height: 220px;
+  height: 150px;
   background: #16213B;
   border-radius: 10px;
   margin: 0 25px;
@@ -12036,3 +12036,62 @@ code {
   margin-bottom: 6.25rem;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+
+@media (max-width: 991.98px) {
+  .block-right {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .body-title-register {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .region--title {
+    margin-bottom: 2.25rem;
+  }
+
+  .list_item {
+    flex-direction: column;
+    padding: 0 0 35.5px;
+    margin: 80px auto;
+    font-size: 20px;
+  }
+
+  .list_text {
+    margin-right: 37px;
+  }
+
+  .list_number {
+    margin-left: initial;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    width: 105px;
+    height: 105px;
+    line-height: 105px;
+    font-size: 58px;
+  }
+
+  .body-get-support {
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px;
+  }
+
+  .block-body {
+    padding-top: 20px;
+  }
+
+  .block-body-text {
+    font-size: 22px;
+  }
+
+  .estimate-button {
+    font-size: 16px;
+  }
+}
