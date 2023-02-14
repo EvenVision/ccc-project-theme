@@ -1,0 +1,106 @@
+.image-calendar {
+    margin: 10px;
+}
+
+.view-filters-dashboard {
+    background-color: #1C2A4A;
+    border-radius: 20px;
+
+    width:1110px;
+}
+
+.view-header-dashboard {
+    margin-left: 71px;
+    margin-bottom: 16px;
+}
+
+.dashboard-filter-content{
+    display:flex !important;
+    justify-content: center !important;
+    align-items: end !important;
+
+    padding-top: 1em;
+}
+
+#views-exposed-form-estimate-view-admin-page-1 {
+    max-width: 1280px;
+}
+
+.views-exposed-form-estimate-view-field {
+    background: #D9D9D9 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    width: 200px;
+}
+
+.views-exposed-form-estimate-view-field-change-period {
+    background-color: #1C2A4A;
+    border: none;
+    padding: 0px;
+
+    width: auto;
+    height: 38px;
+}
+
+.views-exposed-form-estimate-view-field-change-period ul{
+    display: inline-flex;
+    list-style-type: none !important;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.views-exposed-form-estimate-view-field-change-period ul li{
+    border: 1px solid #D9D9D9;
+    border-radius: 3px;
+
+    padding: 6px 25px 6px;
+    margin-right: 14px;
+}
+
+.views-exposed-form-estimate-view-field-change-period ul li:last-child{
+    margin-right: 0px;
+}
+
+.views-exposed-form-estimate-view-field-change-period ul li a{
+    color: #D9D9D9;
+    text-decoration: none;
+}
+
+.views-exposed-form-estimate-view-apply {
+    color: #1C2A4A !important;
+    background-color: #86D498 !important;
+    border-radius: 4px !important;
+    text-align: center !important;
+    width: 140px !important;
+    height: 38px !important;
+    margin: 0px 0px 30px !important;
+}
+
+@media (max-width: 991.98px) {
+    #views-exposed-form-estimate-view-admin-page-1 {
+        max-width: 100%;
+    }
+
+    .view-filters-dashboard {
+        background-color: #1C2A4A;
+        border-radius: 10px;
+
+        width: 100%;
+    }
+
+    .dashboard-filter-content{
+        display:grid !important;
+        justify-content: center !important;
+    }
+
+    .views-exposed-form-estimate-view-apply {
+        width: 200px !important;
+        height: 38px !important;
+    }
+
+    .views-exposed-form-estimate-view-field{
+        margin-bottom: 0px;
+    }
+}
+

@@ -6,3 +6,7 @@ global-styling:
       css/menu.css: { }
       css/fonts.css: { }
       css/general.css: { }
+      css/filters.css: { }
+  dependencies:
+      - core/jquery
+      - core/drupal.dialog

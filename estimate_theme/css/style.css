@@ -11857,7 +11857,7 @@ code {
   justify-content: end;
 }
 
-.section-title-register-page {
+.section-title-get-a-demo-page, .section-title-get-support{
   background-image:  url(../images/pattern_2.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -11962,7 +11962,7 @@ code {
 
 .container-get-support {
   width: 300px;
-  height: 220px;
+  height: 150px;
   background: #16213B;
   border-radius: 10px;
   margin: 0 25px;
