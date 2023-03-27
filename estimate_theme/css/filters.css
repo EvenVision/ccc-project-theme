@@ -6,12 +6,19 @@
     background-color: #1C2A4A;
     border-radius: 20px;
 
-    width:1110px;
+    width:100%;
 }
 
 .view-header-dashboard {
-    margin-left: 71px;
-    margin-bottom: 16px;
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.view-header-dashboard-title p{
+    font-size: 1.6rem;
+}
+.view-header-dashboard-calendar {
+
 }
 
 .dashboard-filter-content{
@@ -28,7 +35,7 @@
 
 .views-exposed-form-estimate-view-field {
     background: #D9D9D9 0% 0% no-repeat padding-box;
-    border-radius: 3px;
+    border-radius: 30px;
     margin-bottom: 30px;
     width: 200px;
 }
@@ -52,7 +59,7 @@
 
 .views-exposed-form-estimate-view-field-change-period ul li{
     border: 1px solid #D9D9D9;
-    border-radius: 3px;
+    border-radius: 30px;
 
     padding: 6px 25px 6px;
     margin-right: 14px;
@@ -70,7 +77,7 @@
 .views-exposed-form-estimate-view-apply {
     color: #1C2A4A !important;
     background-color: #86D498 !important;
-    border-radius: 4px !important;
+    border-radius: 30px !important;
     text-align: center !important;
     width: 140px !important;
     height: 38px !important;
@@ -78,7 +85,7 @@
 }
 
 @media (max-width: 991.98px) {
-    #views-exposed-form-estimate-view-admin-page-1 {
+    #views-exposed-form-estimate-view-admin-page-1,#views-exposed-form-estimate-view-page-1 {
         max-width: 100%;
     }
 
@@ -102,5 +109,38 @@
     .views-exposed-form-estimate-view-field{
         margin-bottom: 0px;
     }
+    .view-header-dashboard {
+        display: block !important;
+    }
 }
 
+@media (max-width: 1200px) {
+    #views-exposed-form-estimate-view-admin-page-1, #views-exposed-form-estimate-view-page-1 {
+        max-width: 100%;
+    }
+
+    .view-filters-dashboard {
+        background-color: #1C2A4A;
+        border-radius: 10px;
+
+        width: 100%;
+    }
+
+    .dashboard-filter-content {
+        display: grid !important;
+        justify-content: center !important;
+    }
+
+    .views-exposed-form-estimate-view-apply {
+        width: 200px !important;
+        height: 38px !important;
+    }
+
+    .views-exposed-form-estimate-view-field {
+        margin-bottom: 0px;
+    }
+
+    .view-header-dashboard {
+        display: block !important;
+    }
+}
