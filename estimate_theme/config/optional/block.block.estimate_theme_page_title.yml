@@ -21,4 +21,4 @@ visibility:
   request_path:
     id: request_path
     negate: true
-    pages: "<front> \r\n/user/register\r\n/home-page\r\n/get-support\r\n/contact/contact_us\r\n/contact/get_a_demo"
+    pages: "<front> \r\n/user/register\r\n/home-page\r\n/get-support\r\n/contact/contact_us\r\n/contact/get_a_demo\r\n/estimate-view\r\n/estimate-view-admin"

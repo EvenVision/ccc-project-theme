@@ -46,9 +46,14 @@
   {% endif %}
   {{ title_suffix }}
   {% if header %}
-    <div class="view-header-dashboard d-flex align-items-center">
-      <div class="image-calendar">{{ source(directory ~ '/images/calendar.svg') }}</div>
-      <div>{{ header }}</div>
+    <div class="view-header-dashboard d-flex">
+      <div class="view-header-dashboard-title">
+        <p>You Cannot Manage What You Cannot Measure...</p>
+      </div>
+      <div class="view-header-dashboard-calendar d-flex align-items-center">
+        <div class="image-calendar">{{ source(directory ~ '/images/calendar.svg') }}</div>
+        <div>{{ header }}</div>
+      </div>
     </div>
   {% endif %}
   {% if exposed %}

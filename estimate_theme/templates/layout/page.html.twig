@@ -69,8 +69,10 @@ set footer_classes = ' ' ~
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse justify-content-md-end flex-wrap" id="navbarSupportedContent">
-        {{ page.navigation_main }}
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="d-flex">
+            {{ page.navigation_main }}
+          </div>
       </div>
     </div>
   </nav>
@@ -79,16 +81,21 @@ set footer_classes = ' ' ~
 
 <main role="main">
   <a id="main-content" tabindex="-1"></a>
+  {% if page.navigation_additional %}
   {{ page.navigation_additional }}
+  {% endif %}
 
+  {% if page.title %}
   <div class="region--title">
     {{ page.title }}
   </div>
+  {% endif %}
 
+  {% if page.content %}
   <div class="container">
     {{ page.content }}
   </div>
-
+  {% endif %}
 </main>
 
 {% if page.footer or page.copyright %}
